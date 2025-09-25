@@ -11,11 +11,11 @@ print(type(mensagem))
 print(type(programador)) """
 
 nome = input('Qual o seu nome? ')
-idade = input('Qual a sua idade? ')
+idade = int(input('Qual a sua idade? '))
 
 """frutaFavorita = input('Qual é a sua fruta favorita? ')
 
 # f-string
 print(f"Seu nome é {nome}, e você tem {idade} anos de idade, e a sua fruta favorita é {frutaFavorita}!") """
 
-print(f"Olá, {nome}! Daqui 5 anos você terá {int(idade) + 5} anos de idade.")
+print(f"Olá, {nome}! Daqui 5 anos você terá {idade + 5} anos de idade.")
